@@ -45,10 +45,10 @@
             //Server settings
             $mail->SMTPDebug = false;                                 // Enable verbose debug output
             $mail->isSMTP();                                      // Set mailer to use SMTP
-            $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+            $mail->Host = '';  // Specify main and backup SMTP servers
             $mail->SMTPAuth = true;                               // Enable SMTP authentication
-            $mail->Username = 'carvalhorocha2911@gmail.com';                 // SMTP username
-            $mail->Password = 'Sleepingdogs1';                           // SMTP password
+            $mail->Username = 'teste@teste.com';                 // SMTP username
+            $mail->Password = 'teste';                           // SMTP password
             $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
             $mail->Port = 587;                                    // TCP port to connect to
 
